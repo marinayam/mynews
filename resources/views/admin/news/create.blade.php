@@ -14,7 +14,6 @@
         
     </head>
     <body>
-        <h1>Myニュース作成画面</h1>
         
         {{-- admin.blade.phpの@yield('content')に以下のタグを埋め込む --}}
         @section('content')
