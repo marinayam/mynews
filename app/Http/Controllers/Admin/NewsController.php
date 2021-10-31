@@ -95,11 +95,11 @@ class NewsController extends Controller
         
         // 以下を追記
         $history = new History();
-        $history->$news_id = $news_id;
-        $history->$edited_at = Carbon::now();
+        $history->news_id = $news->id;
+        $history->edited_at = Carbon::now();
         $history->save();
         
-        return redirect('admin/news');
+        return redirect('admin/news/');
     }
     public function delete(Request $request){
     $news = News::find($request->id);
