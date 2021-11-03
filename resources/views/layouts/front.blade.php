@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ app ()->getLocale() }}">
     <head>
+        <p>デプロイ課題</p>
         <meta charset ="utf-8">
         <meta http-equiv="X-UA-Compatible" content = "IE = edge">
         <meta name ="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +30,6 @@
         
     </head>
     <body>
-        <p>デプロイ課題</p>
         <div id = "app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
             <nav class ="navbar navbar-expand-md navbar-dark navbar-laravel">
