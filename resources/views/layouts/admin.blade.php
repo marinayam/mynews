@@ -29,6 +29,7 @@
         
     </head>
     <body>
+        <p>デプロイ課題</p>
         <div id = "app">
             {{-- 画面上部に表示するナビゲーションバーです。 --}}
             <nav class ="navbar navbar-expand-md navbar-dark navbar-laravel">
